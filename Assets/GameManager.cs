@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public GameObject scoreUIText;
     public GameObject InstructionButton;
     public GameObject starSpawner;
+    public GameObject GameOver;
 
 
     public enum GameManagerState
@@ -35,6 +36,9 @@ public class GameManager : MonoBehaviour
         switch (GMState)
         {
             case GameManagerState.Opening:
+
+                GameOver.SetActive(false);
+
                 playButton.SetActive(true);
                 if (InstructionButton != null)
                     InstructionButton.SetActive(true);
@@ -56,6 +60,9 @@ public class GameManager : MonoBehaviour
 
             case GameManagerState.GameOver:
                 enemySpawn.GetComponent<AsteroidSpawner>().UnscheduleEnemySpawn();
+
+                GameOver.SetActive(true);
+
                 Invoke("ChangeToOpeningState", 8f);
                 break;
         }

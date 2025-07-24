@@ -14,7 +14,7 @@ public class PlayController : MonoBehaviour
     public GameObject explosion;
 
     public TMP_Text LivesUIText;
-    const int MaxLives = 2;
+    const int MaxLives = 1;
     int lives;
 
     bool isInvulnerable = false;

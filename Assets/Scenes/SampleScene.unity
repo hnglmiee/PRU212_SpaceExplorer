@@ -153,10 +153,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1531921306}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: -19.69}
-  m_SizeDelta: {x: 108.908, y: 39.3794}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 9, y: 177.31}
+  m_SizeDelta: {x: 108.908, y: 39.379395}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &195463534
 MonoBehaviour:
@@ -943,7 +943,7 @@ Transform:
   m_GameObject: {fileID: 599173767}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0366, y: 0.18, z: 0}
+  m_LocalPosition: {x: 0.17, y: 1.22, z: 0}
   m_LocalScale: {x: 1.5130829, y: 1.5130829, z: 1.5130829}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1091,10 +1091,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "HOW TO PLAY\nZoom around space in your trusty little spaceship using the
-    Arrow Keys, dodge those grumpy floating asteroids (they really don't like visitors),
-    and snatch up as many shiny stars as you can \u2014 because who doesn\u2019t
-    love stars? Feeling brave? Hit the Spacebar to fire lasers and clear your way!
-    But be careful \u2014 one bad bump with an asteroid and it's game over. "
+    Arrow Keys, dodge those grumpy floating asteroids, and snatch up as many shiny
+    stars as you can \u2014 because who doesn\u2019t love stars? Feeling brave? Hit
+    the Spacebar to fire lasers and clear your way! But be careful \u2014 one bad
+    bump with an asteroid and it's game over. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -1103,8 +1103,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4281935430
+  m_fontColor: {r: 0.27450982, g: 0.14901961, b: 0.22352943, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1662,10 +1662,10 @@ RectTransform:
   - {fileID: 716301160}
   m_Father: {fileID: 1531921306}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 409, y: 168.3}
-  m_SizeDelta: {x: 388.0623, y: 243.3774}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 9, y: 0.47000122}
+  m_SizeDelta: {x: 388.06226, y: 243.37738}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1549939767
 MonoBehaviour:
@@ -1680,7 +1680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5176471, g: 0.29803923, b: 0.39607847, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1740,7 +1740,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 9, y: 106}
+  m_AnchoredPosition: {x: 9, y: 120.3}
   m_SizeDelta: {x: 556, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1710831683
