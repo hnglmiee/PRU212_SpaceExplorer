@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f37837a1348a65f4b840f81e6c6ab70f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playButton: {instanceID: 0}
+  - playerShip: {instanceID: 0}
+  - enemySpawn: {instanceID: 0}
+  - scoreUIText: {instanceID: 0}
+  - InstructionButton: {instanceID: 0}
+  - starSpawner: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
